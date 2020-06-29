@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercicio Tienda departamental</title>
+    <link rel="stylesheet" href="../../CSS/hoja_estilos_atributo/css/estilos_formulario_tienda.css">
+  </head>
+
+  <body>
+
+    <form class="#" name="formContacto">
+      <legend>Formulario</legend>
+
+      <p>
+        <label for="nombre">*Nombre de usuario</label>
+        <input type="text" id="nombre" size="50px" placeholder="Ingresa tu nombre" required>
+      </p>
+
+      <p>
+        <label for="us_email">*Correo electronico</label>
+        <input type="eil" id="email" name="us_email" placeholder="Ingresa tu correo electronico" size="50px" required>
+      </p>
+
+      <p>
+        <label for="edad" class="edad">Edad</label>
+        <input type="number" name="edad">
+      </p>
+
+      <p>
+        <b>Género</b>
+        <input type="radio" id="hombre" name="genero" value="H">
+        <label for="genero">Hombre</label>
+        <input type="radio" id="mujer" name="genero" value="M">
+        <label for="genero">Mujer</label>
+      </p>
+
+      <p>
+        <label for="recomend">Recomendado por</label><br>
+        <select name="recomend" multiple="true">
+          <option value="google">Google</option>
+          <option value="amigo">Amigo</option>
+          <option value="redes">Redes Sociales</option>
+        </select>
+      </p>
+
+      <p>
+        <p>Comentarios:</p><br>
+        <textarea id="area_comentario"></textarea>
+      </p>
+
+      <p>
+        <input type="checkbox" name="terminos" value="yes" required>
+        <label for="terminos">*Acepto términos y condiciones</label>
+      </p>
+
+      <p>
+        <input type="submit" name="registro" value="Registrar">
+      </p>
+    </form>
+    
+  </body>
+</html>

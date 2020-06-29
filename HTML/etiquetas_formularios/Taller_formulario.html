@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ejemplo</title>
+  </head>
+
+  <body>
+
+    <form action="#">
+      <fieldset>
+        <legend>Registro</legend>
+        <p>
+          <label for="nombre">Nombre</label>
+          <input type="text" name="nombre" />
+        </p>
+
+        <p>
+          <b>Tipo de artista</b>
+          <input type="radio" id="musico" value="M" name="tipo">
+          <label for="tipo">Músico</label>
+          <input type="radio" id="pintor" value="P" name="tipo">
+          <label for="tipo">Pintor</label>
+          <input type="radio" id="actor" value="A" name="tipo">
+          <label for="tipo">Actor</label>
+        </p>
+
+        <p>
+         <label for="tipo">Tipo de artista</label><br />
+         <select name="tipo" multiple="true">
+           <option value="musico">Músico</option>
+           <option value="pintor">Pintor</option>
+           <option value="actor">Actor</option>
+         </select>
+       </p>
+
+        <p>
+            <b>Disponibilidad de horarios</b>
+            <input type="radio" id="lunes-viernes" value="S" name="disponibilidad">
+            <label for="disponibilidad">De lues a viernes</label>
+            <input type="radio" id="finsemana" valuea="FS" name="disponibilidad">
+            <label for="disponibilidad">Fin de semana</label>
+        </p>
+
+        <p>
+          <label for="comentario">Comentario</label><br />
+          <textarea name="comentario" cols="30" rows="10"></textarea>
+        </p>
+
+        <p>
+            <input type="checkbox" id="terminos" value="yes">
+            <label for="terminos">Acepto términos y condiciones</label>
+        </p>
+        
+        <p>
+          <input type="submit" value="Continuar" />
+        </p>
+      </fieldset>
+    </form>
+  </body>
+</html>
